@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* CSS Variables */
+
 :root {
   --primary-color: #41658A;
   --secondary-color: #E1F4CB;
@@ -34,7 +34,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-family: var(--paragraph-font);
-  font-size: 22px; 
+  font-size: 22px;
   background-color: #fcfbfb;
   text-align: center;
 }
@@ -47,8 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   text-align: center;
-  margin-top: 10px; 
-  font-size: 2em; 
+  margin-top: 10px;
+  font-size: 2em;
 }
 
 
@@ -61,6 +61,7 @@ img {
 #hero-img {
   width: 100%;
 }
+
 
 .logo, .icon {
   width: 80px;
@@ -80,7 +81,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  padding: 35px; 
+  padding: 35px;
   min-width: 120px;
   color: var(--nav-link-color);
 }
@@ -92,7 +93,7 @@ nav a:hover {
 
 
 .card-img {
-  border: 10px solid var(--secondary-color); 
+  border: 10px solid var(--secondary-color);
 }
 
 main section img {
@@ -103,7 +104,7 @@ main section img {
 .book, .join {
   background-color: var(--secondary-color);
   font-size: 18px;
-  padding: 15px 30px; 
+  padding: 15px 30px;
   margin-top: 50px;
   display: inline-block;
   border-radius: 5px;
@@ -114,19 +115,23 @@ main section img {
 }
 
 
+.mountains {
+  margin: 100px 0; 
+}
+
+
 .msg {
   background-color: var(--accent1-color);
   color: var(--paragraph-color-on-color);
-  padding: 35px; 
-  line-height: 1.5em; 
+  padding: 35px;
+  line-height: 1.5em;
   margin: 20px 0;
 }
 
 .msg p {
-  font-size: 0.8em; 
+  font-size: 0.8em;
   padding-bottom: 15px;
 }
-
 
 .sitemap {
   display: grid;
@@ -166,8 +171,8 @@ main section img {
 footer {
   background-color: #808080;
   color: var(--paragraph-color-on-color);
-  padding: 25px 50px; 
-  margin-top: 200px; 
+  padding: 25px 50px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -214,6 +219,7 @@ footer .social img {
   background-color: var(--accent2-color);
 }
 
+/* Logo Link */
 #logo_link {
   padding-top: 5px;
 }
