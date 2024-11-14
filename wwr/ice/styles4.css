@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    width: 305px;
+    margin: 0 auto;
+    border-radius: 15px; /* Ensures top and bottom corners are rounded */
+    overflow: hidden; /* Prevents child elements from overflowing rounded corners */
+}
+
+.card .image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.timestamp {
+    color: black;
+    padding-inline: 20px;
+    font-size: 8em;
+}
+
+.main {
+    
+}
+
+.main p {
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    color: white;
+    border-bottom-left-radius: 15px; /* Rounds bottom-left corner */
+    border-bottom-right-radius: 15px; /* Rounds bottom-right corner */
+}
+
+.bottom > div {
+    height: 100%;
+    border: 1px red solid;
+}
