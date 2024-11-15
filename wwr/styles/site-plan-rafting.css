@@ -166,6 +166,21 @@ main section img {
   background-color: #ccc;
   line-height: 3em;
 }
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.msg {
+  font-size: 1.2em; 
+  line-height: 1.6; 
+  margin: 20px;
+}
+
+.msg h2 {
+  font-size: 2em; 
+  margin-bottom: 10px;
+}
 
 
 footer {
