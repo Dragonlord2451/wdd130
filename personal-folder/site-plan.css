@@ -31,7 +31,7 @@ Fonts are separated by a | */
 
 
 /* General styles */
-/* General styles */
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -56,15 +56,15 @@ header img.logo {
   max-width: 200px;
 }
 
-/* Use responsive font size for h1, h2, h3 */
+
 h1 {
-  font-size: clamp(2rem, 5vw, 4rem); /* Responsive font size */
-  color: var(--headline-color-on-color); /* Use your defined color */
+  font-size: clamp(2rem, 5vw, 4rem); 
+  color: var(--headline-color-on-color); 
 }
 
 h2, h3 {
-  font-size: clamp(1.5rem, 4vw, 3rem); /* Responsive font size */
-  color: var(--headline-color-on-white); /* Use your defined color */
+  font-size: clamp(1.5rem, 4vw, 3rem); 
+  color: var(--headline-color-on-white); 
   margin-top: 20px;
   margin-bottom: 10px;
 }
