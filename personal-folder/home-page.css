@@ -82,6 +82,49 @@ main {
   width: 100%;
 }
 
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black; 
+}
+
+.card h1, .card p {
+  color: black; 
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007BFF; 
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.card a {
+  color: black; 
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+.card a:hover {
+  color: #007BFF; 
+}
 
 table.colors {
   width: 80%;

@@ -3,86 +3,112 @@
   <head>
     <meta charset="utf-8">
     <title>Home Page</title>
-    <link type="text/css" rel="stylesheet" href="site-plan.css">
+    <link type="text/css" rel="stylesheet" href="home-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+        color: white;
+        position: relative;
+        background-image: url('Your paragraph text.png'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 200px; 
+      }
+
+      header h1, header h2 {
+        margin: 5px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+      }
+
+      nav {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #007BFF; 
+      }
+    </style>
   </head>
 
   <body>
     <header>
-      <h1>Collins Home page</h1>
+      <h1>Collins Home Page</h1>
       <h2>Collin Olive</h2>
       <h2>WDD 130</h2>
-      <!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 130.03 -->
     </header>
+    
     <h3>Navigation</h3>
-      <nav>
-        <a href="home_page.html">Home</a>
-        <a href="page2.html">Cybersecurity Basics</a>
-        <a href="page3.html">Resources</a>
-        <a href="Site_plan.html">Site Plan</a>
-      </nav>
-      
+    <nav>
+      <a href="home_page.html">Home</a>
+      <a href="page2.html">Cybersecurity Basics</a>
+      <a href="page3.html">Resources</a>
+      <a href="Site_plan.html">Site Plan</a>
+    </nav>
 
     <main>
-
-      <!-- ------------------------Steps 2-3------------------------------ -->
       <hr>
       <h2>Overview</h2>
       <h3>Purpose</h3>
-      <p>Driven cybersecurity enthusiast with a unique global perspective, fluent in Japanese and Dutch, and a black belt in Aikido. Originally from Hawaii, I honed my adaptability and cultural understanding during a church mission in Belgium and the Netherlands. With a passion for securing digital spaces, I’m committed to combining my linguistic skills, international experience, and technical knowledge to make an impact in the world of cybersecurity.</p>
-
-      <h3>Audience</h3>
-      <p>I aim to connect with professionals and organizations dedicated to advancing cybersecurity and digital integrity. With a background rooted in diverse international experiences, multilingual fluency in Japanese and Dutch, and discipline from my Aikido training, I bring a unique blend of cross-cultural insight and resilience to the field. My goal is to learn from and collaborate with experts who are passionate about safeguarding digital environments, sharing best practices, and exploring innovative security solutions.</p>
+      <p>Driven cybersecurity enthusiast with a unique global perspective...</p>
 
       <hr>
       <h2>Branding</h2>
       <h3>Website Logo</h3>
       <img src="Your paragraph text.png" alt="Logo image">
       <hr>
-      <h2>Style Guide</h2>
-
-      <!-- ------------------------Steps 4-8------------------------------ -->
-
-      <h3>Color Palette</h3>
-      <table class="colors">
-      <tr><th>Primary</th><th>Secondary</th><th>Accent 1</th><th>Accent 2</th></tr>
-      <tr>
-      <td class="primary">#41658A</td>
-      <td class="secondary">#E1F4CB</td>
-      <td class="accent1">#414073</td>
-      <td class="accent2">#FF331F</td>
-      </tr>
-      </table>
-
-      <!-- ------------------------Step 9------------------------------ -->
-
-      <h3>Typography</h3>
-      <h4>Heading Font: 'Roboto', sans-serif </h4>
-      <h4>Paragraph Font:  'Montserrat', sans-serif;  </h4>
-      <h3>Normal paragraph example</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <h3>Colored paragraph example</h3>
-      <p class="colored">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-      <h2>Site Map</h2>
-      <div class="sitemap">
-        <div class="sm-home">Site-Plan</div>
-        <div class="sm-home">Home</div>
-        <div class="sm-page2">Cybersecurity Basics</div>
-        <div class="sm-page3">Resources</div>
-        <div class="top">&nbsp;</div>
-        <div class="left">&nbsp;</div>
-        <div class="right">&nbsp;</div>
+      
+      <h2 style="text-align:center">User Profile Card</h2>
+      <div class="card">
+        <img src="Collin.jpg" alt="Me" style="width:100%">
+        <h1>Collin Olive</h1>
+        <p class="Acomplishment">Black Belt Aikido, Walmart Deli Manager</p>
+        <p>BYUI</p>
+        <div style="margin: 24px 0;">
+          <a href="https://www.youtube.com/@dragonslayer_gaming4659"><i class="fa fa-youtube"></i></a> 
+          <a href="https://x.com/DragonSlay4509"><i class="fa fa-twitter"></i></a>  
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>  
+          <a href="https://www.facebook.com/collin.olive/"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><a href="mailto:olivecollin.2451@gmail.com"><button>Email Contact</button>contacts to :olivecollin.2451@gmail.com</a></p>
       </div>
+    </main>
+  </body>
+</html>
 
-      <!-- --------Content Section -------------- -->
       <hr>
-      <h2>Content</h2>
-      <h3>Home page</h3>
-      <p>The site is created by a cybersecurity enthusiast who is passionate about securing digital spaces. The individual brings a unique global perspective with fluency in Japanese and Dutch and experience gained from living in Hawaii and serving a church mission in Belgium and the Netherlands. The goal is to leverage technical knowledge and cultural understanding to make a significant impact in the cybersecurity field.</p>
-      <p>Images for the Home page</p>
-      <img src="Your paragraph text.png">
-      <img src="download-_1_.png">
+      <h2>Overview</h2>
+      <h3>Purpose</h3>
+      <p>Driven cybersecurity enthusiast with a unique global perspective...</p>
 
+      <hr>
+      <h2>Branding</h2>
+      <h3>Website Logo</h3>
+      <img src="Your paragraph text.png" alt="Logo image">
+      <hr>
+      
+      
+
+  <hr>
+  <h2>Content</h2>
+  <h3>Home page</h3>
+  <p>The site is created by a cybersecurity enthusiast who is passionate about securing digital spaces...</p>
+  
       <h3>Cybersecurity Basics</h3>
       <p>Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks, unauthorized access, and damage. In todays increasingly digital world, where everything from banking to communication happens online, understanding cybersecurity basics is crucial to protecting personal information, securing data, and maintaining privacy.
 
